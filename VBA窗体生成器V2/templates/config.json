@@ -1,0 +1,170 @@
+{
+  "output_file": "Excel数据分析工具箱.xlsm",
+  "form": {
+    "title": "Excel 数据分析工具箱",
+    "width": 500,
+    "height": 550,
+    "font_name": "微软雅黑",
+    "font_size": 10,
+    "background_image": "壁纸09.bmp",
+    "background_mode": "stretch",
+    "_modern": {
+      "theme": "professional",
+      "border_style": "none",
+      "show_caption": false
+    }
+  },
+  "modules": [
+    "报表生成.bas",
+    "数据处理.bas",
+    "数据对比.bas"
+  ],
+  "buttons": [
+    {
+      "name": "lblTitleBar",
+      "caption": "Excel 数据分析工具箱",
+      "top": 0,
+      "left": 0,
+      "width": 560,
+      "height": 30,
+      "module": ""
+    },
+    {
+      "name": "btnClose",
+      "caption": "×",
+      "top": 2,
+      "left": 530,
+      "width": 26,
+      "height": 26,
+      "module": "Unload Me"
+    },
+    {
+      "name": "lblLeft",
+      "caption": "数据处理",
+      "top": 45,
+      "left": 30,
+      "width": 210,
+      "height": 28,
+      "module": ""
+    },
+    {
+      "name": "lblRight",
+      "caption": "报表与对比",
+      "top": 45,
+      "left": 270,
+      "width": 210,
+      "height": 28,
+      "module": ""
+    },
+    {
+      "name": "btnSplit",
+      "caption": "数据分割",
+      "top": 85,
+      "left": 30,
+      "width": 210,
+      "height": 36,
+      "module": "数据分割"
+    },
+    {
+      "name": "btnClean",
+      "caption": "数据清洗",
+      "top": 85,
+      "left": 270,
+      "width": 210,
+      "height": 36,
+      "module": "数据清洗"
+    },
+    {
+      "name": "btnFormat",
+      "caption": "批量格式设置",
+      "top": 130,
+      "left": 30,
+      "width": 210,
+      "height": 36,
+      "module": "批量格式设置"
+    },
+    {
+      "name": "btnReport",
+      "caption": "智能报表生成",
+      "top": 130,
+      "left": 270,
+      "width": 210,
+      "height": 36,
+      "module": "智能报表生成"
+    },
+    {
+      "name": "btnSeparator1",
+      "caption": "",
+      "top": 178,
+      "left": 30,
+      "width": 450,
+      "height": 2,
+      "module": ""
+    },
+    {
+      "name": "btnPivot",
+      "caption": "快速数据透视",
+      "top": 190,
+      "left": 30,
+      "width": 210,
+      "height": 36,
+      "module": "快速数据透视"
+    },
+    {
+      "name": "btnCompare",
+      "caption": "两表数据对比",
+      "top": 190,
+      "left": 270,
+      "width": 210,
+      "height": 36,
+      "module": "两表数据对比"
+    },
+    {
+      "name": "btnPDF",
+      "caption": "导出为PDF",
+      "top": 235,
+      "left": 30,
+      "width": 210,
+      "height": 36,
+      "module": "导出为PDF"
+    },
+    {
+      "name": "btnHighlight",
+      "caption": "多列对比高亮",
+      "top": 235,
+      "left": 270,
+      "width": 210,
+      "height": 36,
+      "module": "多列对比高亮"
+    },
+    {
+      "name": "btnClear",
+      "caption": "清除对比标记",
+      "top": 280,
+      "left": 270,
+      "width": 210,
+      "height": 36,
+      "module": "清除对比标记"
+    },
+    {
+      "name": "btnSeparator2",
+      "caption": "",
+      "top": 330,
+      "left": 30,
+      "width": 450,
+      "height": 2,
+      "module": ""
+    },
+    {
+      "name": "btnExit",
+      "caption": "退  出",
+      "top": 350,
+      "left": 160,
+      "width": 200,
+      "height": 40,
+      "module": "Unload Me"
+    }
+  ],
+  "auto_start": true,
+  "backup_enabled": true
+}
